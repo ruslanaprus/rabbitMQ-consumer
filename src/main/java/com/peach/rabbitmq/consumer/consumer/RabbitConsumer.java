@@ -1,4 +1,4 @@
-package com.peach.rabbitmq.consumer;
+package com.peach.rabbitmq.consumer.consumer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
