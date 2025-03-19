@@ -18,7 +18,7 @@ public class EmployeeJsonConsumer {
         this.objectMapper = objectMapper;
     }
 
-    @RabbitListener(queues = "peach.employee")
+    @RabbitListener(queues = "course.employee")
     public void listen(String message){
         try {
             var employee = objectMapper.readValue(message, Employee.class);
